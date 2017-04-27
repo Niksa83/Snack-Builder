@@ -1,0 +1,75 @@
+.ingredient{
+    font-weight: normal;
+    padding: 7px 7px 7px 35px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px 0px #c3c3c3;
+    cursor: pointer;
+    position: relative;
+    margin: 5px 0;
+
+    input {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    &--focused {
+        background: rgba(0, 0, 0, 0.15);
+        font-weight: 600;
+    }
+
+    &--active {
+        background: #663694;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    &__icon {
+        background: darken(#F3F3F3, 5%) no-repeat center center;
+        background-size: 24px;
+        width: 28px;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+
+        &--mayonnaise {
+        background-image: url(/assets/icons/mayonnaise.png);
+        }
+        &--ketchup {
+        background-image: url(/assets/icons/ketchup.png);
+        }
+        &--cucumber {
+        background-image: url(/assets/icons/cucumber.png);
+        }
+        &--lettuce {
+        background-image: url(/assets/icons/lettuce.png);
+        }
+        &--tomato {
+        background-image: url(/assets/icons/tomato.png);
+        }
+        &--cheese {
+        background-image: url(/assets/icons/cheese.png);
+        }
+        &--ham {
+        background-image: url(/assets/icons/ham.png);
+        }
+        &--sausage {
+        background-image: url(/assets/icons/sausage.png);
+        }
+        &--eggs {
+        background-image: url(/assets/icons/eggs.png);
+        }
+
+    }
+
+}
+

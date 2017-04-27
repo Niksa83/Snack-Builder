@@ -1,0 +1,28 @@
+$snack-green: #28b62c;
+
+.glyphicon{
+     color: #e86363;
+     cursor:pointer;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.snack-row {
+    h4:hover {
+        color:$snack-green;
+        cursor:pointer;
+    }
+    .glyphicon-chevron-up {
+        color:$snack-green;
+    };
+    .glyphicon-chevron-down {
+        color:$snack-green;
+    }
+}
+.ingredient-content {
+    display:none;
+
+    &--open{
+        display:block;
+    }
+}
